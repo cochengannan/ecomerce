@@ -1,0 +1,35 @@
+ol{
+    
+    list-style:none;
+    list-style-position: initial;
+    text-decoration: none;
+
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-right: 30px;
+    box-shadow: 0px 10px 12px black;
+    background-color:wheat; 
+}
+.container:hover
+{
+    background-image: url("https://wallpapers.com/images/hd/pure-black-background-py9pa0f1mlsscm9s.jpg");
+    backdrop-filter: blur(10px);
+    color:wheat;
+text-shadow: 0px 10px 12px white;
+}
+marquee
+{
+    background-color: burlywood;
+    width: 100%;
+    height: 70px;   
+}
+marquee:hover
+{
+    background-image: linear-gradient(orange,white,green);
+}
